@@ -188,7 +188,7 @@ class LoginView extends StatelessWidget {
                                 ),
                                 TextButton(
                                   onPressed: () {},
-                                  child: const Text('Forget Password?'),
+                                  child: const Text('Forgot Password?'),
                                 ),
                               ],
                             ),

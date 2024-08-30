@@ -52,8 +52,7 @@ class SearchView extends StatelessWidget {
                     Center(
                       child: Column(
                         children: [
-                          Lottie.asset('assets/images/Animationsearch.json',
-                              height: 200, width: 200, fit: BoxFit.fill),
+
                           const SizedBox(
                             height: 10,
                           ),

@@ -30,13 +30,6 @@ class MycartView extends StatelessWidget {
                         SizedBox(
                           height: 70,
                         ),
-                        Opacity(
-                          opacity: 0.4,
-                          child: Image.asset(
-                            'assets/images/catpresent.png',
-                            scale: 4,
-                          ),
-                        ),
                         const Text(
                           'Your Cart is empty!',
                           style: TextStyle(

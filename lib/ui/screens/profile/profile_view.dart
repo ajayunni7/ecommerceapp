@@ -44,17 +44,17 @@ class ProfileView extends StatelessWidget {
                       ),
                       child: const CircleAvatar(
                         radius: 50,
-                        backgroundImage: AssetImage('assets/images/gut2.jpg'),
+                        backgroundImage: AssetImage('assets/images/dragon.jpg'),
                       ),
                     ),
                     const SizedBox(height: 10),
                     const Text(
-                      'Brolin Thomas',
+                      'Ajay Viswanathan',
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                     const Text(
-                      'asd@gmail.com',
+                      'ajay@gmail.com',
                       style: TextStyle(color: Colors.grey),
                     ),
                   ],
@@ -296,7 +296,7 @@ class ProfileView extends StatelessWidget {
                           ),
                           ListTile(
                             onTap: () {
-                              viewModel.gotosuccesstemp();
+
                             },
                             leading: const Icon(
                               Icons.help,
